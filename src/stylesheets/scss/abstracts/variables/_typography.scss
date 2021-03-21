@@ -1,0 +1,18 @@
+// weights
+$weight-regular: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+$weight: (
+  'regular': $weight-regular,
+  'semibold': $weight-semibold,
+  'bold': $weight-bold,
+);
+
+
+// sizes
+$leading-up-to-12: 4;                 // if font-size <= 12, leading == font-size + 4
+$leading-up-to-18: 6;                 // if font-size <= 18, leading == font-size + 6
+$leading-up-to-32: 8;                 // if font-size <= 32, leading == font-size + 8
+$leading-up-to-42: 10;                // if font-size <= 42, leading == font-size + 10
+$leading-from-68: $leading-up-to-32;  // font-size >= 68, leading == font-size + 8
