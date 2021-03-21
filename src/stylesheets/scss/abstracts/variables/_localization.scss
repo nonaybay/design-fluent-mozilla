@@ -1,0 +1,5 @@
+$font-stack-fallback-fluent: 'Segoe UI', 'Segoe WP', 'Tahoma', 'Arial';
+$font-stack-fallback-protocol: 'Metropolis', 'Inter', 'Zilla Slab';
+$font-stack-fallback-prefix: -apple-system, BlinkMacSystemFont, X-LocaleSpecific;
+$font-stack-fallback-suffix: sans-serif, system-ui;
+$font-stack-default: $font-stack-fallback-prefix, $font-stack-fallback-protocol, $font-stack-fallback-fluent, $font-stack-fallback-suffix;
