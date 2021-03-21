@@ -1,0 +1,39 @@
+// breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 320px;
+$breakpoint-md: 480px;
+$breakpoint-lg: 640px;
+$breakpoint-xl: 1024px;
+$breakpoint-xxl: 1366px;
+$breakpoint-xxxl: 1920px;
+
+$breakpoint: (
+  'xs': $breakpoint-xs,
+  'sm': $breakpoint-sm,
+  'md': $breakpoint-md,
+  'lg': $breakpoint-lg,
+  'xl': $breakpoint-xl,
+  'xxl': $breakpoint-xxl,
+  'xxxl': $breakpoint-xxxl,
+);
+
+// content for each breakpoint
+$content-hack: (9 / 10);
+
+$content-xs: 100%;
+$content-sm: ($breakpoint-sm * $content-hack);
+$content-md: ($breakpoint-md * $content-hack);
+$content-lg: ($breakpoint-lg * $content-hack);
+$content-xl: ($breakpoint-xl * $content-hack);
+$content-xxl: ($breakpoint-xxl * $content-hack);
+$content-xxxl: ($breakpoint-xxxl * $content-hack);
+
+$content: (
+  'xs': $content-xs,
+  'sm': $content-sm,
+  'md': $content-md,
+  'lg': $content-lg,
+  'xl': $content-xl,
+  'xxl': $content-xxl,
+  'xxxl': $content-xxxl,
+);
