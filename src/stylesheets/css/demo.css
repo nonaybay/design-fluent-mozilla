@@ -1,0 +1,144 @@
+:root {
+  /* ~ green ~ */
+  --color-green-050: #a7dac3;
+  --color-green-100: #9fd7bf;
+  --color-green-200: #96d1b6;
+  --color-green-300: #6ec29d;
+  --color-green-400: #4fb587;
+  --color-green-500: #30ba78;
+  --color-green-600: #3aad7a;
+  --color-green-700: #2ba66b;
+  --color-green-800: #279860;
+  /* ~ blue ~ */
+  --color-blue-050: #92b5ea;
+  --color-blue-100: #87ade9;
+  --color-blue-200: #7ca7e5;
+  --color-blue-300: #4a85de;
+  --color-blue-400: #276bd3;
+  --color-blue-500: #0060df;
+  --color-blue-600: #115bcb;
+  --color-blue-700: #0056c7;
+  --color-blue-800: #0052b7;
+  /* ~ violet ~ */
+  --color-violet-050: #d2c0f3;
+  --color-violet-100: #cfbaf2;
+  --color-violet-200: #c8b3f0;
+  --color-violet-300: #b696ec;
+  --color-violet-400: #a680e8;
+  --color-violet-500: #9059ff;
+  --color-violet-600: #9762f2;
+  --color-violet-700: #7835ff;
+  --color-violet-800: #631bff;
+  /* ~ purple ~ */
+  --color-purple-050: #daafe5;
+  --color-purple-100: #d8a8e3;
+  --color-purple-200: #d19fdf;
+  --color-purple-300: #c27bd5;
+  --color-purple-400: #b55ecb;
+  --color-purple-500: #b833e1;
+  --color-purple-600: #b53ed3;
+  --color-purple-700: #ac20d7;
+  --color-purple-800: #9b1dc5;
+  /* ~ pink ~ */
+  --color-pink-050: #f0adc9;
+  --color-pink-100: #efa6c3;
+  --color-pink-200: #ec9dbf;
+  --color-pink-300: #e678a6;
+  --color-pink-400: #e15b93;
+  --color-pink-500: #ff298a;
+  --color-pink-600: #ee3684;
+  --color-pink-700: #ff0a79;
+  --color-pink-800: #f30072;
+  /* ~ red ~ */
+  --color-red-050: #f2bcbf;
+  --color-red-100: #f2b6b8;
+  --color-red-200: #efafb3;
+  --color-red-300: #eb9095;
+  --color-red-400: #e6787e;
+  --color-red-500: #ff4f5e;
+  --color-red-600: #f15961;
+  --color-red-700: #ff2c3e;
+  --color-red-800: #ff132b;
+  /* ~ orange ~ */
+  --color-orange-050: #f1c7b3;
+  --color-orange-100: #f0c3ad;
+  --color-orange-200: #edbaa4;
+  --color-orange-300: #e8a382;
+  --color-orange-400: #e38e67;
+  --color-orange-500: #ff7139;
+  --color-orange-600: #ef7b45;
+  --color-orange-700: #ff5918;
+  --color-orange-800: #ff4401;
+  /* ~ yellow ~ */
+  --color-yellow-050: #f1d7b2;
+  --color-yellow-100: #f0d4ab;
+  --color-yellow-200: #edcda3;
+  --color-yellow-300: #e8bc80;
+  --color-yellow-400: #e3ae65;
+  --color-yellow-500: #ffa436;
+  --color-yellow-600: #efa742;
+  --color-yellow-700: #ff9515;
+  --color-yellow-800: #fd8600;
+  /* ~ light-gray ~ */
+  --color-light-gray-050: #e3e3e6;
+  --color-light-gray-100: #e0e0e4;
+  --color-light-gray-200: #dddde1;
+  --color-light-gray-300: #d1d0d6;
+  --color-light-gray-400: #c7c6cd;
+  --color-light-gray-500: #bfbfc9;
+  --color-light-gray-600: #bebdc6;
+  --color-light-gray-700: #a8a8b6;
+  --color-light-gray-800: #9999a9;
+  /* ~ dark-gray ~ */
+  --color-dark-gray-050: #9f9eaa;
+  --color-dark-gray-100: #9795a3;
+  --color-dark-gray-200: #8b8a99;
+  --color-dark-gray-300: #646271;
+  --color-dark-gray-400: #45444e;
+  --color-dark-gray-500: #32313c;
+  --color-dark-gray-600: #32313a;
+  --color-dark-gray-700: #2d2c36;
+  --color-dark-gray-800: #292831;
+  /* ~ marketing-gray ~ */
+  --color-marketing-gray-050: #d0d0d4;
+  --color-marketing-gray-100: #ccccd0;
+  --color-marketing-gray-200: #c6c6cb;
+  --color-marketing-gray-300: #b2b2b8;
+  --color-marketing-gray-400: #a1a1a9;
+  --color-marketing-gray-500: #9595a2;
+  --color-marketing-gray-600: #94949f;
+  --color-marketing-gray-700: #838393;
+  --color-marketing-gray-800: #777788;
+  /* ~ ink ~ */
+  --color-ink-050: #9787c1;
+  --color-ink-100: #8f7cbc;
+  --color-ink-200: #806fb3;
+  --color-ink-300: #5a488b;
+  --color-ink-400: #3e3160;
+  --color-ink-500: #291d4f;
+  --color-ink-600: #2c204a;
+  --color-ink-700: #251a47;
+  --color-ink-800: #211841;
+  /* ~ black ~ */
+  --color-black-050: #8c8c8c;
+  --color-black-100: #818181;
+  --color-black-200: #737373;
+  --color-black-300: #414141;
+  --color-black-400: #181818;
+  --color-black-500: black;
+  --color-black-600: black;
+  --color-black-700: black;
+  --color-black-800: black;
+  /* ~ white ~ */
+  --color-white-050: white;
+  --color-white-100: white;
+  --color-white-200: white;
+  --color-white-300: white;
+  --color-white-400: white;
+  --color-white-500: white;
+  --color-white-600: #fcfcfc;
+  --color-white-700: #e4e4e4;
+  --color-white-800: #d1d1d1;
+}
+
+/*# sourceMappingURL=demo.css.map */

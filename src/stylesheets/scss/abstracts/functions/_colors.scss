@@ -3,10 +3,63 @@
 @use '../variables/colors' as *;
 
 
-@function color-05($color) {
-  $color: color.adjust($color, $hue: 2);
-  $color: color.adjust($color, $saturation: -31.58%);
-  $color: color.mix($color-base-white, $color, 93%);
+@function modColor($color-value, $hue-value, $saturation-value, $lightness-value) {
+  $step-1: color.adjust($color-value, $hue: $hue-value);
+  $step-2: color.scale($step-1, $saturation: $saturation-value);
+  $step-3: color.scale($step-2, $lightness: $lightness-value);
 
-  @return $color;
+  @return $step-3;
+}
+
+@function colorLighterAlt($input) {
+  @return modColor($input, 2, -31.58%, 54.71%);
+}
+
+@function colorLighter($input) {
+  @return modColor($input, 3, -30.77%, 50.78%);
+}
+
+@function colorLight($input) {
+  @return modColor($input, 1, -32.84%, 45.29%);
+}
+
+@function colorTertiary($input) {
+  @return modColor($input, 2, -30.95%, 25.49%);
+}
+
+@function colorSecondary($input) {
+  @return modColor($input, 2, -31.08%, 9.22%);
+}
+
+@function colorPrimary($input) {
+  @return modColor($input, 0, 0%, 0%);
+}
+
+@function colorDarkAlt($input) {
+  @return modColor($input, 2, -15.53%, -1.18%);
+}
+
+@function colorDark($input) {
+  @return modColor($input, 0, 0%, -10.59%);
+}
+
+@function colorDarker($input) {
+  @return modColor($input, -1, 0%, -18.04%);
+}
+
+
+
+:root {
+  @each $color, $value in $colors {
+    /* ~ #{$color} ~ */
+    --color-#{$color}-050: #{colorLighterAlt($value)};
+    --color-#{$color}-100: #{colorLighter($value)};
+    --color-#{$color}-200: #{colorLight($value)};
+    --color-#{$color}-300: #{colorTertiary($value)};
+    --color-#{$color}-400: #{colorSecondary($value)};
+    --color-#{$color}-500: #{colorPrimary($value)};
+    --color-#{$color}-600: #{colorDarkAlt($value)};
+    --color-#{$color}-700: #{colorDark($value)};
+    --color-#{$color}-800: #{colorDarker($value)};
+  }
 }
