@@ -1,0 +1,33 @@
+@use 'sass:map';
+@use '../variables/typography' as *;
+
+
+@function font-size($font-size) {
+  @return (($font-size / 16) * 1rem);
+}
+
+
+@function font-weight($font-weight) {
+  @if map.has-key($weight, $font-weight) {
+    @return map.get($weight, $font-weight);
+  } @else {
+    @return font-weight('regular');
+  }
+}
+
+
+@function line-height($font-size) {
+  @if ($font-size <= 12) {
+    @return (($font-size + $leading-up-to-12) / $font-size);
+  } @else if ($font-size <= 18) {
+    @return (($font-size + $leading-up-to-18) / $font-size);
+  } @else if ($font-size <= 32) {
+    @return (($font-size + $leading-up-to-32) / $font-size);
+  } @else if ($font-size <= 42) {
+    @return (($font-size + $leading-up-to-42) / $font-size);
+  } @else if ($font-size >= 68) {
+    @return (($font-size + $leading-from-68) / $font-size);
+  }
+
+  @return 1;
+}

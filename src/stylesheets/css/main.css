@@ -1,0 +1,20 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, X-LocaleSpecific, "Metropolis", "Inter", "Zilla Slab", "Segoe UI", "Segoe WP", "Tahoma", "Arial", sans-serif, system-ui;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375;
+}
+
+/*# sourceMappingURL=main.css.map */
